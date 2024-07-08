@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoClassSelector</title>
+    <style>
+        /*unvisited*/
+        a:link {
+            color: chartreuse;
+        }
+
+        /* visited */
+        a:visited {
+            color: blueviolet;
+        }
+
+        /* hover */
+        a.data:hover {
+            color: darkturquoise;
+        }
+
+        /* active */
+        a:active {
+            color: deeppink;
+        }
+
+        .data1 {
+            text-align: center;
+            padding: 25px;
+            background-color: deeppink;
+        }
+
+        div:hover {
+            background-color: darkseagreen;
+            color: burlywood;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>PseudoClassSelector</h1>
+    <button><a class="data" href="https://www.lumilor.co.in/blog/lexus-heart-racer">redirecting link</a></button>
+    <div>
+        <p><b>Note:</b> While clicking it will redirect </p>
+    </div>
+
+    <div class="data1">mouse hover funtion</div>
+</body>
+
+</html>

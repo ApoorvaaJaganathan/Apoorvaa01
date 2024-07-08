@@ -1,0 +1,65 @@
+<fieldset>
+    <legend>Personal info</legend>
+<form action="">
+    <label for="name">Name</label>
+    <input type="text" placeholder="Enter name" name="name" required><br><br>
+    <label for="uname" Username>Username</label>
+    <input type="text" placeholder="Enter username" name="uname"><br><br>
+    <label for="password" >password</label>
+    <input type="password" placeholder="Enter password" name="password" required ><br><br>
+    <label for="email" >email</label>
+    <input type="email" placeholder="Enter email" name="email"><br><br>
+    <label for="mobile no" >mobile no</label>
+    <input type="tel" placeholder="Enter your number" maxlength="10" required><br><br>
+    <label for="date" >Date</label>
+    <input type="datetime-local" placeholder="Enter the date" name="dob"><br><br>
+
+    
+
+     <h3>choose the known language:</h3>
+    <input type="checkbox" name="html">
+    <label for="html">HTML</label>
+    <input type="checkbox" name="css">
+    <label for="css">css</label>
+
+    <h3>choose the file to upload:</h3>
+    <input type="file" name="file" id="file" required><br><br>
+
+
+    <input type="image" src="ai.webp" height="150" width="150"><br><br>
+    <input type="color" name="" value="#a8328f">
+
+    <input type="month" name="month" id="month" >
+    <input type="week" name="week" id="week">
+
+    <input type="hidden" name="regno" id="regno" value="4128">
+
+
+    <label for="search">search</label>
+    <input type="search" name="search" id="search"><br><br>
+
+    <datalist>
+        <label for=""browser">choose the browser:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">   
+
+         <option value="chrome">Chrome</option>
+         <option value="edge">Edge</option>
+         <option value="brave">brave</option>
+         <option value="tor">tor</option>
+        
+    </datalist>
+    <label for="volume">choose between 0 to 50</label>
+    <input type="range" name="vol" id="vol" min="0" max="50"><br><br>
+
+    <select name="mark" id="mark">
+        
+        <option > --choose the mark range--</option>
+        <option value="c">35-50</option>
+        
+    </select>
+
+    <input type="submit" value="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" name="reset" id="reset" value="clear"> 
+</fieldset>
+</form>
